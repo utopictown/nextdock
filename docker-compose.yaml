@@ -13,7 +13,7 @@ services:
       - ${APP_PORT}:3000
     build: ./
     volumes:
-      - ./:/usr/src/app
+      - ${APP_CODE_PATH_HOST}:/usr/src/app
     environment:
       DB_USER: ${DB_USER}
       DB_PASS: ${DB_PASS}
