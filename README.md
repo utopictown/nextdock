@@ -6,7 +6,7 @@ currently only contain nginx, nextjs, mysql and adminer (sql panel)
 how to run
 ```
 # add this repo as submodule
-git submodule add https://github.com/utopictown/nextjs-development
+git submodule add https://github.com/utopictown/nextdock
 
 # copy .env.example to .env
 cp .env.example .env
