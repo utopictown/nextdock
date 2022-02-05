@@ -1,20 +1,26 @@
-# nextjs-development
+# nextdock
 nextjs development environment
 
 currently only contain nginx, nextjs, mysql and adminer (sql panel)
 
-how to run
+## how to run
+
+#### you need to have installed nextjs
+
+#### add this repo as submodule
 ```
-# add this repo as submodule
 git submodule add https://github.com/utopictown/nextdock
-
-# copy .env.example to .env
-cp .env.example .env
-
-# adjust variables to your favor
-
-# run docker machine
-docker compose up
-
-heads up to http://localhost
 ```
+
+#### copy .env.example to .env
+```
+cp .env.example .env
+```
+#### adjust variables to your favor
+
+#### run docker machine
+```
+docker compose up
+```
+
+#### heads up to http://localhost
